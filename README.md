@@ -10,7 +10,6 @@ Add-on wordpress plugin providing specific modules and plugins that enable uniqu
 
 ----------
 
-<p align="center"><img align="middle" width="200" src="https://lh4.googleusercontent.com/bNnv7BBzwEzRX3v4hvKXgJ7PVXl797k92hc-x1TstV90lPtt1N-osIt52euwtSeR5-6nZSvUOnc=w2102-h1246" /></p>
+<p align="center"><img align="middle" width="200" src="https://cloud.githubusercontent.com/assets/4042621/6660594/fb19d3a0-cb6a-11e4-91c8-87e908b2baf2.png" /></p>
 
 
-![enter image description here](https://cloud.githubusercontent.com/assets/4042621/6660594/fb19d3a0-cb6a-11e4-91c8-87e908b2baf2.png)

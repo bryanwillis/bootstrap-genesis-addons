@@ -10,4 +10,6 @@ Add-on wordpress plugin providing specific modules and plugins that enable uniqu
 
 
 
-![bsg-addons](https://lh6.googleusercontent.com/33BmluJl927BaNL2_cPH_IBlD89_BuMmC9_6ap2pFExT-BevBQHNSDwzJIPz3-K6iiirXKCdp6U=w2226-h1246)
+<p align="center">
+  <img src="https://lh4.googleusercontent.com/bNnv7BBzwEzRX3v4hvKXgJ7PVXl797k92hc-x1TstV90lPtt1N-osIt52euwtSeR5-6nZSvUOnc=w2102-h1246" />
+</p>

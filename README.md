@@ -11,7 +11,13 @@ Add-on wordpress plugin providing specific modules and plugins that enable uniqu
 # Current Modules
  - **Grid Classes** - Make's it possible to add bootstrap grid classes to widgets.
  
+# How to Use
+ Simply install this as a plugin and add the following to your functions php
 
+function bsg_addons_add_theme_support() {
+	add_theme_support( 'bsg-grid-classes.php' );
+}
+add_action( 'after_setup_theme', 'bsg_addons_add_theme_support' );
 
 
 ----------

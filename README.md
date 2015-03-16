@@ -9,7 +9,7 @@ Add-on wordpress plugin providing specific modules and plugins that enable uniqu
 
 
 # Current Modules
- - **Grid Classes** - Make's it possible to add bootstrap grid classes to widgets.
+ - **[Grid Classes](https://github.com/bryanwillis/bootstrap-genesis-addons/blob/master/addons/bsg-grid-classes.php)** - Make's it possible to add bootstrap grid classes to widgets.
  
 # How to Use
  Simply install this as a plugin and add the following to your functions.php

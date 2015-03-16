@@ -4,8 +4,10 @@ This is a Wordpress theme specific plugin for [bootstrap-genesis](https://github
 Add-on wordpress plugin providing specific modules and plugins that enable unique features for the [bootstrap-genesis theme](https://github.com/salcode/bootstrap-genesis). This plugin aims at making developing faster using bootstrap-genesis and also solves common issues you might come across trying to integrate bootstrap with other popular Wordpress plugins.
 
 # Requirements
- - **genesis** 
- - **bootstrap-genesis** (parent theme or another genesis child theme - if not using bootstrap-genesis make sure you add bootstrap's css or most of the modules here will be of no use)
+ - **[Genesis](http://my.studiopress.com/themes/genesis/)** 
+- **[Bootstrap Genesis](https://github.com/salcode/bootstrap-genesis)**  (parent theme or another genesis child theme - if not using bootstrap-genesis make sure you add bootstrap's css or most of the modules here will be of no use)
+
+
 
 
 # Current Modules

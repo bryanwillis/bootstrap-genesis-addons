@@ -8,6 +8,6 @@ Add-on wordpress plugin providing specific modules and plugins that enable uniqu
  - **bootstrap-genesis** (parent theme or another genesis child theme - if not using bootstrap-genesis make sure you add bootstrap's css or most of the modules here will be of no use)
 
 
-Set of modules and plugins that enable unique features for the bootstrap-genesis theme. 
+
 
 ![bsg-addons](https://lh6.googleusercontent.com/33BmluJl927BaNL2_cPH_IBlD89_BuMmC9_6ap2pFExT-BevBQHNSDwzJIPz3-K6iiirXKCdp6U=w2226-h1246)

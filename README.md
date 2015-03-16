@@ -8,7 +8,7 @@ Add-on wordpress plugin providing specific modules and plugins that enable uniqu
  - **bootstrap-genesis** (parent theme or another genesis child theme - if not using bootstrap-genesis make sure you add bootstrap's css or most of the modules here will be of no use)
 
 
-
+----------
 
 <p align="center">
   <img align="middle" width="200" src="https://lh4.googleusercontent.com/bNnv7BBzwEzRX3v4hvKXgJ7PVXl797k92hc-x1TstV90lPtt1N-osIt52euwtSeR5-6nZSvUOnc=w2102-h1246" />

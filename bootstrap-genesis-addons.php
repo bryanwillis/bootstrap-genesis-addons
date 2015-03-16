@@ -12,7 +12,7 @@ License URI:        http://opensource.org/licenses/MIT
 
 
 function load_bsg_addons() {
-  foreach (glob(__DIR__ . '/modules/*.php') as $file) {
+  foreach (glob(__DIR__ . '/addons/*.php') as $file) {
     if (current_theme_supports('bsg-' . basename($file, '.php'))) {
       require_once $file;
     }

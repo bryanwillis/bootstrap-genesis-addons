@@ -1,7 +1,7 @@
 # Bootstrap Genesis - Theme Add-Ons
-This is a Wordpress theme specific plugin for [bootstrap-genesis](https://github.com/salcode/bootstrap-genesis) created by @salcode .
+This is a Wordpress theme specific plugin for [bootstrap-genesis](https://github.com/salcode/bootstrap-genesis) created by @salcode.
 
-Add-on wordpress plugin providing specific modules and plugins that enable unique features for the [bootstrap-genesis theme](https://github.com/salcode/bootstrap-genesis). This plugin aims at making developing faster using bootstrap-genesis and also solves common issues you might come across trying to integrate bootstrap with other popular Wordpress plugins.
+Add-on wordpress plugin providing specific modules and plugins that enable unique features for the [bootstrap-genesis theme](https://github.com/salcode/bootstrap-genesis). This plugin aims at making developing faster using bootstrap-genesis and also solves common issues you might come across trying to integrate bootstrap with other popular Wordpress plugins. 
 
 # Requirements
  - **[Genesis](http://my.studiopress.com/themes/genesis/)** 
@@ -14,7 +14,7 @@ Add-on wordpress plugin providing specific modules and plugins that enable uniqu
  - **[Grid Classes](https://github.com/bryanwillis/bootstrap-genesis-addons/blob/master/addons/bsg-grid-classes.php)** - Make's it possible to add bootstrap grid classes to widgets.
  
 # How to Use
- Simply install this as a plugin and add the following to your functions.php
+ Simply install this as a plugin and add the following to your functions.php. Eventually this will be added to the genesis theme options page for quicker setup.
 
 ```php
 <?php

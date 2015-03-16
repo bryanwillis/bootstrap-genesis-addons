@@ -5,7 +5,7 @@ Add-on wordpress plugin providing specific modules and plugins that enable uniqu
 
 # Requirements
  - **[Genesis](http://my.studiopress.com/themes/genesis/)** 
-- **[Bootstrap Genesis](https://github.com/salcode/bootstrap-genesis)**  (parent theme or another genesis child theme - if not using bootstrap-genesis make sure you add bootstrap's css or most of the modules here will be of no use)
+ - **[Bootstrap Genesis](https://github.com/salcode/bootstrap-genesis)**  (parent theme or another genesis child theme - if not using bootstrap-genesis make sure you add bootstrap's css or most of the modules here will be of no use)
 
 
 

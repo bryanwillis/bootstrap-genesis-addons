@@ -14,12 +14,31 @@ Enabled addons add unique features for the [bootstrap-genesis theme](https://git
  - **[Grid Classes](https://github.com/bryanwillis/bootstrap-genesis-addons/blob/master/addons/bsg-grid-classes.php)** - Make's it possible to add bootstrap grid classes to widgets.
  
 # How to Use
- Simply install this as a plugin and add the following to your functions.php. Eventually this will be added to the genesis theme options page for quicker setup.
+ Simply install this as a plugin and add the following to your functions.php.  Eventually this will be added to the genesis theme options page for quicker setup.
+
+
 
 ```php
-<?php
 function bsg_addons_add_theme_support() {
-	add_theme_support( 'bsg-grid-classes.php' );
+       
+	 add_theme_support( 'bsg-grid-classes.php' );
+         add_theme_support( 'bsg-customizer-logo.php' );
+         
+        
+}
+add_action( 'after_setup_theme', 'bsg_addons_add_theme_support' );
+```
+
+
+To remove functionality comment out theme support like example below:
+        
+```php
+function bsg_addons_add_theme_support() {
+       
+	 add_theme_support( 'bsg-grid-classes.php' );
+      // add_theme_support( 'bsg-customizer-logo.php' );
+         
+        
 }
 add_action( 'after_setup_theme', 'bsg_addons_add_theme_support' );
 ```

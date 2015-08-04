@@ -20,11 +20,8 @@ Enabled addons add unique features for the [bootstrap-genesis theme](https://git
 
 ```php
 function bsg_addons_add_theme_support() {
-       
-	 add_theme_support( 'bsg-grid-classes.php' );
-         add_theme_support( 'bsg-customizer-logo.php' );
-         
-        
+	add_theme_support( 'bsg-grid-classes.php' );
+	add_theme_support( 'bsg-customizer-logo.php' );
 }
 add_action( 'after_setup_theme', 'bsg_addons_add_theme_support' );
 ```
@@ -34,11 +31,8 @@ To remove functionality comment out theme support like example below:
         
 ```php
 function bsg_addons_add_theme_support() {
-       
-	 add_theme_support( 'bsg-grid-classes.php' );
-      // add_theme_support( 'bsg-customizer-logo.php' );
-         
-        
+	add_theme_support( 'bsg-grid-classes.php' );
+	// add_theme_support( 'bsg-customizer-logo.php' );
 }
 add_action( 'after_setup_theme', 'bsg_addons_add_theme_support' );
 ```

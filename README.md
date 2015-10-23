@@ -11,6 +11,7 @@ Enabled addons add unique features for the [bootstrap-genesis theme](https://git
 
 # Current Modules
  - **[Grid Classes](https://github.com/bryanwillis/bootstrap-genesis-addons/blob/master/addons/bsg-grid-classes.php)** - Make's it possible to add bootstrap grid classes to widgets.
+ - **[Customizer Logo](https://github.com/salcode/bootstrap-genesis/wiki/Creating-the-Logo-Customizer)** - Adds the logo uploader as described in this link.
  
 # How to Use
  Simply install this as a plugin and add the following to your functions.php.  Eventually this will be added to the genesis theme options page for quicker setup.

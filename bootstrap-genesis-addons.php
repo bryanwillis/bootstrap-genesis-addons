@@ -12,10 +12,22 @@ License URI:        http://opensource.org/licenses/MIT
 
 
 function load_bsg_addons() {
+  global $_wp_theme_features;
   foreach (glob(__DIR__ . '/addons/*.php') as $file) {
-    if (current_theme_supports('bsg-' . basename($file, '.php'))) {
+    $feature = 'bsg-' . basename($file, '.php');
+    if (isset($_wp_theme_features[$feature])) {
       require_once $file;
     }
   }
 }
-add_action('after_setup_theme', 'load_bsg_addons');
+add_action('after_setup_theme', 'load_bsg_addons', 100);
+
+
+
+// To disable a feature simply comment out the added theme support below
+
+// Customizer Logo 
+add_theme_support('bsg-customizer-logo');
+
+// Customizer Widget Columns
+add_theme_support('bsg-grid-classes');

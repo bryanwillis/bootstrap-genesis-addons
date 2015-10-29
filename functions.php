@@ -12,3 +12,12 @@ add_theme_support('bsg-grid-classes');
 
 // Custom CSS File
 add_theme_support('bsg-custom-css');
+
+// Add advanced-custom-fields
+add_theme_support('bsg-acf');
+
+// Add mu-plugin auto loader
+add_theme_support('mu-plugin-autoloader');
+
+// Add Kirki Customizer Toolkit
+add_theme_support('kirki');

@@ -24,4 +24,5 @@ function load_bsg_addons() {
 }
 add_action('after_setup_theme', 'load_bsg_addons', 100);
 
-include_once ( plugins_url( 'functions.php', __FILE__ ) );
+//include_once ( plugins_url( 'functions.php', __FILE__ ) );
+include_once( dirname( __FILE__ ) . '/functions.php' );

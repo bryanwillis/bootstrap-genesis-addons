@@ -10,6 +10,8 @@ License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
 
+/* Adds all php files in addons folder */
+/* To use addons add theme support for it. See bootstrap-genesis-addons/functions.php file for example  */
 
 function load_bsg_addons() {
   global $_wp_theme_features;

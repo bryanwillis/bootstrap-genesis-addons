@@ -1,7 +1,7 @@
 <?php
 
 /* Copy desired addons to bootstrap-genesis-adddons/addons/functions.php */
-/* Use filenames without .php in the bootstrap-genesis/addons/ folder as theme support varialbe/option name and prefix with bsg */ */
+/* Use filenames without .php in the bootstrap-genesis/addons/ folder as theme support varialbe/option name and prefix with bsg */
 /* add_theme_support ('bsg-filename-without-php-extension') */
 
 // Customizer Logo 

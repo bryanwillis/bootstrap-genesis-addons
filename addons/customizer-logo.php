@@ -34,7 +34,7 @@
         if ( ! $brand_logo ) {
             return $output;
         }
-        $output = '<a class="navbar-brand" id="logo" style="padding-top: 5px; padding-bottom: 5px;" title="' .
+        $output = '<a class="navbar-brand" id="logo" style="padding-top: 6px; padding-bottom: 6px;" title="' .
             esc_attr( get_bloginfo( 'description' ) ) .
             '" href="' .
             esc_url( home_url( '/' ) ) .

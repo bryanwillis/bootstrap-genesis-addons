@@ -23,10 +23,18 @@ add_theme_support('kirki');
 
 /* Specific to Bootstrap Genesis */
 
-// remove_action('genesis_footer', 'genesis_do_footer');
-add_filter('genesis_footer_creds_text', 'bsg_addons_footer_creds_filter');
-function bsg_addons_footer_creds_filter( $creds ) {
-	$creds = '[footer_copyright] &middot; <a href="'. esc_url( home_url( '/' ) ) .'">'. get_bloginfo( 'name' ) .'</a>';
+// Add your own footer and center it like bootstrap
+add_filter( 'genesis_footer_output', 'bsg_footer_creds_filter', 10, 3 );
+function bsg_footer_creds_filter( $creds ) {
+	$creds = '<p class="text-centered">[footer_copyright] &middot; <a href="'. esc_url( home_url( '/' ) ) .'">'. get_bloginfo( 'name' ) .'</a></p>';
 	return $creds;
 }
 
+/*
+add_action('genesis_footer', 'bsg_footer_extened');
+function bsg_footer_extened() {
+?>
+
+<?php
+}
+// */

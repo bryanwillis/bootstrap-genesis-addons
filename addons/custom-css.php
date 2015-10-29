@@ -32,7 +32,7 @@ function bsg_load_custom_css_wp_head() {
   //  $custom_css = content_url() . '/css/custom.css';    
   else
     // $bsg_addons_css = plugins_url( 'custom.css', __FILE__ );
-    $custom_css = $bsg_addons_css . 'custom.css'
+    $custom_css = $bsg_addons_css . 'custom.css';
 
   $custom_css = apply_filters( 'bsg_custom_css_url', $custom_css );
 

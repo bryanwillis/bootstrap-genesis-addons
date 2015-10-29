@@ -22,14 +22,14 @@ function bsg_load_custom_css_wp_head() {
     $custom_css = $bsg_theme_url . 'custom.css';
   elseif ( file_exists( $bsg_theme_url . 'css/custom.css' ) )
     $custom_css = $bsg_theme_url . 'css/custom.css';
-  elseif ( file_exists( home_url() . '/custom.css' ) )
-    $custom_css = home_url() . '/custom.css';
-  elseif ( file_exists( home_url() . '/css/custom.css' ) )
-    $custom_css = home_url() . '/css/custom.css';
-  elseif ( file_exists( content_url() . '/custom.css' ) )
-    $custom_css = content_url() . '/custom.css';
-  elseif ( file_exists( content_url() . '/css/custom.css' ) )
-    $custom_css = content_url() . '/css/custom.css';    
+  // elseif ( file_exists( home_url() . '/custom.css' ) )
+  //  $custom_css = home_url() . '/custom.css';
+  // elseif ( file_exists( home_url() . '/css/custom.css' ) )
+  //  $custom_css = home_url() . '/css/custom.css';
+  // elseif ( file_exists( content_url() . '/custom.css' ) )
+  //  $custom_css = content_url() . '/custom.css';
+  // elseif ( file_exists( content_url() . '/css/custom.css' ) )
+  //  $custom_css = content_url() . '/css/custom.css';    
   else
     // $bsg_addons_css = plugins_url( 'custom.css', __FILE__ );
     $custom_css = $bsg_addons_css . 'custom.css'
@@ -43,5 +43,13 @@ function bsg_load_custom_css_wp_head() {
 }
 
 
+// Filter override example added. Remove comment tags (recommended) or put this in functions.php
 
+/*
 
+add_filter( 'bsg_pre_load_custom_css', 'my_bsg_custom_css_filter' );
+function child_favicon_filter( $favicon_url ) {
+	return 'http://example.com/wp-content/assets/css/custom.css';
+}
+
+// *

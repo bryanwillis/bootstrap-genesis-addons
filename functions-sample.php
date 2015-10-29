@@ -26,7 +26,7 @@ add_theme_support('kirki');
 // Add your own footer and center it like bootstrap
 add_filter( 'genesis_footer_output', 'bsg_footer_creds_filter', 10, 3 );
 function bsg_footer_creds_filter( $creds ) {
-	$creds = '<p class="text-centered">[footer_copyright] &middot; <a href="'. esc_url( home_url( '/' ) ) .'">'. get_bloginfo( 'name' ) .'</a></p>';
+	$creds = '<p class="text-center">[footer_copyright] &middot; <a href="'. esc_url( home_url( '/' ) ) .'">'. get_bloginfo( 'name' ) .'</a></p>';
 	return $creds;
 }
 

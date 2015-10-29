@@ -1,7 +1,7 @@
 # Bootstrap Genesis - Theme Add-Ons
 This is a Wordpress theme specific plugin I use when building with [bootstrap-genesis](https://github.com/salcode/bootstrap-genesis).
 
-Enabled addons add unique features for the [bootstrap-genesis theme](https://github.com/salcode/bootstrap-genesis). This plugin aims at making developing faster using bootstrap-genesis and also solves common issues you might come across trying to integrate bootstrap with other popular Wordpress plugins. 
+Enabled addons add unique features for the [bootstrap-genesis theme](https://github.com/salcode/bootstrap-genesis). This plugin aims at making developing faster using bootstrap-genesis and also solves common issues you might come across trying to integrate bootstrap with other popular Wordpress plugins. This also gives us a functionality plugin and custom css file to avoid overrides from child theme updates like bootstrap-genesis. All updates to this plugin will be made in addons folder so if you're using plugins functions.php or style.css, you can just overwrite the addons folder to avoid losing custom changes.
 
 # Requirements
  - **[Wordpress](https://github.com/WordPress/WordPress/)** 

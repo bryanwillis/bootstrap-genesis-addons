@@ -52,4 +52,4 @@ function child_favicon_filter( $favicon_url ) {
 	return 'http://example.com/wp-content/assets/css/custom.css';
 }
 
-// *
+// */
